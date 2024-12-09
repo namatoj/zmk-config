@@ -27,6 +27,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        hr_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <10 11>;
+        };
+
+        top_left_tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        top_right_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
