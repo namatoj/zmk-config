@@ -71,6 +71,16 @@
             bindings = <&sk RIGHT_ALT>;
             key-positions = <18 17>;
         };
+
+        mid-esc {
+            bindings = <&kp ESC>;
+            key-positions = <13 16>;
+        };
+
+        mid-back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <23 26>;
+        };
     };
 
     keymap {
