@@ -84,7 +84,7 @@
             bindings = <
 &kp NUMBER_1       &kp NUMBER_2      &kp NUMBER_3                &kp NUMBER_4            &kp N5       &kp NUMBER_6       &kp N7               &kp N8                   &kp N9                      &kp N0
 &ht LSHIFT ESCAPE  &ht LEFT_ALT TAB  &ht LEFT_CONTROL BACKSPACE  &ht LEFT_GUI BACKSLASH  &kp GRAVE    &kp SINGLE_QUOTE   &ht RIGHT_GUI MINUS  &ht RIGHT_CONTROL EQUAL  &ht RIGHT_ALT LEFT_BRACKET  &ht RSHFT RIGHT_BRACKET
-&caps_word         &key_repeat       &none                       &kp PIPE                &kp TILDE    &kp DOUBLE_QUOTES  &kp UNDER            &kp PLUS                 &kp LEFT_BRACE              &kp RIGHT_BRACE
+&caps_word         &key_repeat       &sk GLOBE                   &kp PIPE                &kp TILDE    &kp DOUBLE_QUOTES  &kp UNDER            &kp PLUS                 &kp LEFT_BRACE              &kp RIGHT_BRACE
                                                                  &trans                  &trans       &trans             &trans
             >;
         };
