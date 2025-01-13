@@ -35,16 +35,6 @@
     combos {
         compatible = "zmk,combos";
 
-        top_left_tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-        };
-
-        top_right_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-        };
-
         tab2 {
             bindings = <&kp TAB>;
             key-positions = <2 3>;
@@ -53,21 +43,6 @@
         esc2 {
             bindings = <&kp ESCAPE>;
             key-positions = <10 11>;
-        };
-
-        back2 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
-        };
-
-        alt-gr {
-            bindings = <&sk RIGHT_ALT>;
-            key-positions = <18 17>;
-        };
-
-        mid-esc {
-            bindings = <&kp ESC>;
-            key-positions = <13 16>;
         };
 
         globe {
