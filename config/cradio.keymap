@@ -40,11 +40,6 @@
             key-positions = <2 3>;
         };
 
-        esc2 {
-            bindings = <&kp ESCAPE>;
-            key-positions = <10 11>;
-        };
-
         globe {
             bindings = <&sk GLOBE>;
             key-positions = <21 22>;
