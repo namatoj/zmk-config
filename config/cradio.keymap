@@ -59,6 +59,16 @@
             bindings = <&sl 3>;
             key-positions = <33 32>;
         };
+
+        leftshift {
+            bindings = <&sk LSHIFT>;
+            key-positions = <22 23>;
+        };
+
+        rightshift {
+            bindings = <&sk RSHIFT>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
