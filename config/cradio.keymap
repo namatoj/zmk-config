@@ -15,7 +15,7 @@
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
@@ -63,6 +63,16 @@
         rightshift {
             bindings = <&sk RSHIFT>;
             key-positions = <26 27>;
+        };
+
+        leftshift2 {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <13 23>;
+        };
+
+        rightleft2 {
+            bindings = <&sk RIGHT_SHIFT>;
+            key-positions = <16 26>;
         };
     };
 
